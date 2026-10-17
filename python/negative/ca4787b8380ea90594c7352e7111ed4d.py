@@ -1,0 +1,4 @@
+import os
+
+def ensure_folder(path):
+    os.makedirs(path, exist_ok=True)
